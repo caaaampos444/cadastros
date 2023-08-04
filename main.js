@@ -21,7 +21,7 @@ function trocarTitulo(){
     }else{
         media.textContent=mediaDigitada
     }
-    if(mediaDigitada<'7'){
+    if(mediaDigitada<7){
         media.classList.add('vermelho')
     }else{
         media.classList.add('azul')
